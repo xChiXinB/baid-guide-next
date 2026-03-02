@@ -70,10 +70,12 @@ export default function HomePage() {
                                 (1+3)、十年级、十一年级和十二年级。</p>
                             <p className="mb-1">由于学生可能从九年级或十年级开始学习，北京中学国际部的年级划分与传统高中不同。本文档遵循以下划分:</p>
                             <ul className="list-disc list-inside">
-                                <li><strong>第一年</strong>指九年级起点学生的九年级，十年级起点学生的十年级。</li>
-                                <li><strong>第二年</strong>指九年级起点学生的十年级和十一年级，十年级起点学生的十一年级。
+                                <li><strong>第一年</strong>指九年级起点或 1.5 项目学生的九年级，十年级起点或 0.5 项目学生的十年级。</li>
+                                <li><strong>第二年</strong>指九年级起点或 1.5 项目学生学生的十年级和十一年级，十年级起点或 0.5 项目学生的十一年级。
                                 </li>
                                 <li><strong>第三年</strong>指十二年级。</li>
+                                <li><strong>0.5 项目学生</strong>指从九年级第二学期入学的学生。</li>
+                                <li><strong>1.5 项目学生</strong>指从八年级第二学期入学的学生。</li>
                             </ul>
                         </Callout>
                     </div>
