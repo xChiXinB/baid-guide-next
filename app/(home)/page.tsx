@@ -13,7 +13,8 @@ export default function HomePage() {
                     <div className="bg-red-900 rounded-full inline-block p-5 mx-3 lg:p-8 lg:mx-5 mb-3 text-white">
                         <h1 className="text-2xl lg:text-3xl font-header font-bold">The BAID Survival Guide</h1>
                     </div>
-                    <p className="text-white">Spring 2026 Edition</p>
+                    <p className="text-white font-header">An Unofficial Guide for New and Old Alike</p>
+                    <p className="text-white font-header">Spring 2026 Edition</p>
                 </div>
 
                 <div className="h-[28rem] md:h-[40rem]"/>
