@@ -46,41 +46,19 @@ export default function HomePage() {
             </section>
 
             <section style={{ maxWidth: '77rem' }} className="mx-auto px-6 mb-16">
-                <h2 className="text-3xl mb-3">注意事项</h2>
-
-                <Cards className="grid-cols-1 md:grid-cols-2">
-                    <div className="flex flex-col">
-                        <Callout type="warning">
-                            <p>请注意，本站所有内容均属<strong>学生维护</strong>，根据 2025 - 2026 学年情况编写，
-                                <strong>其内容未受学校确认</strong>。本网站不是官方文档，内容仅供参考。具体情况请咨询你的班主任、导师或相关负责人。
-                            </p>
-                        </Callout>
-
-                        <Callout type="idea">
-                            本文档中的提示部分属于经验分享，仅供参考。每个人的情况不同，请根据自己的实际情况做出选择。
-                        </Callout>
-                    </div>
-
-                    <div className="flex flex-col">
-                        <Callout>
-                            <p className="mb-1">本文档只包含北京中学国际部的信息。本文并非为北中外籍人员子女学校
-                                (International School of Beijing Academy) 编写。
-                                高中项目包含八年级 (1.5)、九年级 (0.5、1 + 3)、十年级、十一年级和十二年级。</p>
-                            <p className="mb-1">由于北京中学国际部招生方式多样，其年级划分与传统高中不同。本文档遵循以下划分:</p>
-                            <ul className="list-disc list-inside">
-                                <li><strong>第一年</strong>指九年级起点或 1.5 项目学生的九年级，十年级起点或 0.5
-                                    项目学生的十年级。
-                                </li>
-                                <li><strong>第二年</strong>指九年级起点或 1.5 项目学生学生的十年级和十一年级，十年级起点或
-                                    0.5 项目学生的十一年级。
-                                </li>
-                                <li><strong>第三年</strong>指十二年级。</li>
-                                <li><strong>0.5 项目学生</strong>指从九年级第二学期入学的学生。</li>
-                                <li><strong>1.5 项目学生</strong>指从八年级第二学期入学的学生。</li>
-                            </ul>
-                        </Callout>
-                    </div>
-                </Cards>
+                <Callout type="warning">
+                    <p>请注意，本站所有内容均属<strong>学生维护</strong>，根据 2025 - 2026 学年情况编写，
+                        <strong>其内容未受学校确认</strong>。本网站不是官方文档，内容仅供参考。具体情况请咨询你的班主任、导师或相关负责人。
+                    </p>
+                </Callout>
+                <Callout>
+                    <p className="mb-1">本文档只包含北京中学国际部的信息。本文并非为北中外籍人员子女学校
+                        (International School of Beijing Academy) 编写。
+                        北京中学国际部包含八年级 (1.5)、九年级 (0.5、1+3)、十年级、十一年级和十二年级。</p>
+                </Callout>
+                <Callout type="idea">
+                    本文档中的提示部分属于经验分享，仅供参考。每个人的情况不同，请根据自己的实际情况做出选择。
+                </Callout>
             </section>
 
             <section style={{ maxWidth: '77rem' }} className="mx-auto px-6 mb-16">
